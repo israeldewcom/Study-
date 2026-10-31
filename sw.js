@@ -1,7 +1,7 @@
 /* Study Arena service worker.
    Change VERSION on every release so installed apps pick up the new files. */
 const VERSION = 'sa-v1';
-const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/favicon-32.png', './og.png'];
+const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192-1.png', './icon-512-1.png', './favicon-32.png', './og.png'];
 
 self.addEventListener('install', (e) => {
   // Do not skipWaiting here: the page asks for it, so nobody loses a quiz in progress.
